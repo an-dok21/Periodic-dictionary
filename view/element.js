@@ -402,7 +402,7 @@ export default class ElementView {
         html += `<li>${Link.toWikipedia('Boiling_point', 'Boiling Point')}: ${ElementView.formatCelsius(element.boils)}</li>`;
         html += `<li>${crustLink}: ${ElementView.formatAbundance(element.crust)}</li>`;
         html += `<li>Type: ${Link.create(Element.typeURLs[element.type], element.type, true)}</li>`;
-        html += `<li> <a href="/audio/${element.audioSrc}"> Pronouce </a></li>`
+        html += `<li> <a href="https://hongcam-chesmistry.github.io/Periodic-dictionary/audio/${element.audioSrc}"> Pronouce </a></li>`
         html += '</ul>';
 
         html += '<ul>';
